@@ -17,10 +17,10 @@ const Header = observer(({ getSiteData }) => {
 
   // 状态文本
   const statusNames = {
-    loading: "站点状态加载中",
-    error: "部分站点出现异常",
-    allError: "全部站点出现异常",
-    normal: "所有站点运行正常",
+    loading: "服务状态加载中",
+    error: "部分服务出现异常",
+    allError: "所有服务出现异常",
+    normal: "好样的！所有服务运行正常",
     wrong: "数据请求失败",
   };
 
